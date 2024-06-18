@@ -1,0 +1,43 @@
+{
+  "Hero": {
+    "title1": "Experience",
+    "title2": "Smart Packing",
+    "title3": "at a New Level",
+    "description": "Use our powerful Smart Packing Assistant to create personalized packing lists based on your travel plans, offer intelligent storage solutions, optimize suitcase space, and effortlessly prepare for your trip."
+  },
+  "SocialProof": {
+    "maker": "Chosen by thousands of users worldwide"
+  },
+  "Feature": {
+    "title": "Features Overview"
+  },
+  "Pricing": {
+    "title": "Pricing Plans",
+    "title2": "Unlock Advanced Features",
+    "description": "With the Smart Packing Assistant, luggage organization has never been easier.",
+    "doYouLike": "Do you like our Smart Packing Assistant?",
+    "follow": "Follow us for more updates."
+  },
+  "WallOfLove": {
+    "title": "Wall of Praise",
+    "description1": "Use our Smart Packing Assistant and share your experience,",
+    "description2": "let us know",
+    "description3": "your feedback will be a valuable asset for us to showcase."
+  },
+  "FAQ": {
+    "title": "Frequently Asked Questions",
+    "description": "Here are the most common questions and answers from our users."
+  },
+  "CTA": {
+    "title": "Smart Packing, All in One Step",
+    "description1": "Use",
+    "description2": "our Smart Packing tools to",
+    "description3": "optimize",
+    "description4": "your travel preparation process and",
+    "description5": "enjoy",
+    "description6": "stress-free travel!"
+  },
+  "CTAButton": {
+    "title": "Start Packing"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "Hero": {
+    "title1": "Experimenta",
+    "title2": "Empaque Inteligente",
+    "title3": "a un Nuevo Nivel",
+    "description": "Utiliza nuestro potente Asistente de Empaque Inteligente para crear listas de empaque personalizadas basadas en tus planes de viaje, ofrecer soluciones de almacenamiento inteligentes, optimizar el espacio de la maleta y preparar tu viaje sin esfuerzo."
+  },
+  "SocialProof": {
+    "maker": "Elegido por miles de usuarios en todo el mundo"
+  },
+  "Feature": {
+    "title": "Resumen de Funciones"
+  },
+  "Pricing": {
+    "title": "Planes de Precios",
+    "title2": "Desbloquea Funciones Avanzadas",
+    "description": "Con el Asistente de Empaque Inteligente, organizar el equipaje nunca ha sido tan fácil.",
+    "doYouLike": "¿Te gusta nuestro Asistente de Empaque Inteligente?",
+    "follow": "Síguenos para más actualizaciones."
+  },
+  "WallOfLove": {
+    "title": "Muro de Elogios",
+    "description1": "Utiliza nuestro Asistente de Empaque Inteligente y comparte tu experiencia,",
+    "description2": "háznoslo saber",
+    "description3": "tu opinión será un valioso recurso para nosotros mostrar."
+  },
+  "FAQ": {
+    "title": "Preguntas Frecuentes",
+    "description": "Aquí están las preguntas y respuestas más comunes de nuestros usuarios."
+  },
+  "CTA": {
+    "title": "Empaque Inteligente, Todo en Un Paso",
+    "description1": "Utiliza",
+    "description2": "nuestras herramientas de Empaque Inteligente para",
+    "description3": "optimizar",
+    "description4": "tu proceso de preparación de viaje y",
+    "description5": "disfrutar",
+    "description6": "de un viaje sin estrés."
+  },
+  "CTAButton": {
+    "title": "Comienza a Empacar"
+  }
+}

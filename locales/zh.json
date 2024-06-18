@@ -1,0 +1,43 @@
+{
+  "Hero": {
+    "title1": "体验",
+    "title2": "智能打包",
+    "title3": "新境界",
+    "description": "使用我们强大的智能打包助手，根据您的旅行计划生成个性化的打包清单，提供智能收纳方案，优化行李箱空间，轻松准备您的旅行"
+  },
+  "SocialProof": {
+    "maker": "全球上万用户的选择"
+  },
+  "Feature": {
+    "title": "功能一览"
+  },
+  "Pricing": {
+    "title": "价格方案",
+    "title2": "解锁高级功能",
+    "description": "智能打包助手，行李收纳从未如此简单。",
+    "doYouLike": "是否满意我们的智能打包助手？",
+    "follow": "关注我们获取更多更新。"
+  },
+  "WallOfLove": {
+    "title": "用户赞誉墙",
+    "description1": "使用我们的智能打包助手并分享您的体验，",
+    "description2": "请告知我们",
+    "description3": "，您的反馈将成为我们展示的宝贵资产。"
+  },
+  "FAQ": {
+    "title": "常见问题解答",
+    "description": "这里汇集了用户最关心的问题及解答。"
+  },
+  "CTA": {
+    "title": "智能打包，一步到位",
+    "description1": "使用",
+    "description2": "我们的智能打包工具，",
+    "description3": "优化",
+    "description4": "您的旅行准备过程，",
+    "description5": "享受",
+    "description6": "无忧旅行！"
+  },
+  "CTAButton": {
+    "title": "开始打包"
+  }
+}
