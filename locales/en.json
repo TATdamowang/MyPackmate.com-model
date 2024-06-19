@@ -39,5 +39,14 @@
   },
   "CTAButton": {
     "title": "Start Packing"
+  },
+  "PackPage": {
+    "title": "确认出行信息",
+    "destinationLabel": "旅行目的地",
+    "destinationPlaceholder": "请输入目的地",
+    "purposeLabel": "出行目的",
+    "purposePlaceholder": "请输入出行目的",
+    "dateLabel": "出行日期",
+    "confirmButton": "确认信息"
   }
 }

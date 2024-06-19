@@ -1,4 +1,7 @@
+// components/header/Header.tsx
+
 "use client";
+
 import HeaderLinks from "@/components/header/HeaderLinks";
 import { LangSwitcher } from "@/components/header/LangSwitcher";
 import { siteConfig } from "@/config/site";
@@ -30,6 +33,7 @@ const links = [
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+
   return (
     <header className="py-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <nav className="relative z-50 flex justify-between">
@@ -48,7 +52,7 @@ const Header = () => {
               height={32}
             />
             <span className="text-gray-950 dark:text-gray-300 hidden md:block">
-            {siteConfig.name}
+              {siteConfig.name}
             </span>
           </Link>
         </div>
@@ -60,7 +64,7 @@ const Header = () => {
                 href={link.href}
                 aria-label={link.label}
                 title={link.label}
-                className="tracking-wide transition-colors duration-200 font-norma"
+                className="tracking-wide transition-colors duration-200 font-normal"
               >
                 {link.label}
               </Link>
@@ -71,7 +75,7 @@ const Header = () => {
         <div className="hidden md:flex items-center gap-x-6">
           <HeaderLinks />
           <ThemedButton />
-          <LangSwitcher />
+          <LangSwitcher /> {/* 这里包含了语言切换逻辑 */}
         </div>
 
         <div className="md:hidden">
@@ -110,7 +114,7 @@ const Header = () => {
                     <button
                       aria-label="Close Menu"
                       title="Close Menu"
-                      className="tracking-wide transition-colors duration-200 font-norma"
+                      className="tracking-wide transition-colors duration-200 font-normal"
                       onClick={() => setIsMenuOpen(false)}
                     >
                       <CgClose />
@@ -125,7 +129,7 @@ const Header = () => {
                           href={link.href}
                           aria-label={link.label}
                           title={link.label}
-                          className="font-medium tracking-wide  transition-colors duration-200 hover:text-deep-purple-accent-400"
+                          className="font-medium tracking-wide transition-colors duration-200 hover:text-deep-purple-accent-400"
                           onClick={() => setIsMenuOpen(false)}
                         >
                           {link.label}
