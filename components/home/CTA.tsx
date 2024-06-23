@@ -1,5 +1,4 @@
 /* eslint-disable react/no-unescaped-entities */
-"use client"; // 标记为客户端组件
 import CTAButton from "@/components/home/CTAButton";
 import { RoughNotation } from "react-rough-notation";
 
