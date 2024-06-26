@@ -1,3 +1,4 @@
+//Hero.tsx：展示首页的主视觉内容。
 "use client";
 import { LineText } from "@/components/LineText";
 import CTAButton from "@/components/home/CTAButton";

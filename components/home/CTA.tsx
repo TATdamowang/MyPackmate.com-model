@@ -1,4 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
+//home/：存放首页相关的组件。
+//CTA.tsx、CTAButtton.tsx：首页的呼叫到行动（Call To Action）组件和按钮。
 import CTAButton from "@/components/home/CTAButton";
 import { RoughNotation } from "react-rough-notation";
 

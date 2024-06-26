@@ -1,3 +1,4 @@
+//LineText.tsx、ScrollingBanner.tsx：一些基础的文本和滚动横幅组件。
 import { ReactNode } from "react";
 
 type LineTextProps = {

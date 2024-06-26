@@ -39,5 +39,16 @@
   },
   "CTAButton": {
     "title": "Comienza a Empacar"
+  },
+  "Trip": {
+    "uploadTitle": "Sube tu imagen",
+    "uploadSubtitle": "Obtén sugerencias de almacenamiento",
+    "uploadDescription": "Sube una imagen para recibir sugerencias personalizadas de almacenamiento.",
+    "uploadImage": "Subir imagen",
+    "uploadPrompt": "Elige una imagen de tu dispositivo para subir.",
+    "uploadButtonText": "Subir",
+    "suggestionsTitle": "Sugerencias de almacenamiento",
+    "doYouLike": "¿Te gusta nuestro servicio?",
+    "follow": "Síguenos en Twitter"
   }
 }

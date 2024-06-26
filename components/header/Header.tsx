@@ -1,5 +1,5 @@
 // components/header/Header.tsx
-
+//Header.tsx：主页面头部组件，包含整个页面的头部内容。
 "use client";
 
 import HeaderLinks from "@/components/header/HeaderLinks";

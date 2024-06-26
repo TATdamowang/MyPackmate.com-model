@@ -1,3 +1,4 @@
+//Pricing.tsx：展示价格计划的组件。
 "use client";
 
 import {

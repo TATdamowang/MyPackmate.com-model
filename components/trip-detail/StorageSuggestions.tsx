@@ -16,7 +16,7 @@ import { FaUpload, FaCheck } from "react-icons/fa";
 import { RoughNotation } from "react-rough-notation";
 import { siteConfig } from "@/config/site";
 import ImageUploader from "./ImageUpload"; // Custom ImageUploader component
-import {getStorageSuggestions} from "./storageSuggestions"; // Utility function for storage suggestions
+import {getStorageSuggestions} from "./storageSuggestion"; // Utility function for storage suggestions
 
 const StorageSuggestions = ({
   id,

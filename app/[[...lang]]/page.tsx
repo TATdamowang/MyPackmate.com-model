@@ -1,3 +1,5 @@
+//[[...lang]]/：动态捕获所有路径的多语言支持路由，使用 [[...lang]] 文件夹来处理不同语言的页面。page.tsx：每个 [...lang] 路径下的默认页面。
+
 import CTA from "@/components/home/CTA";
 import FAQ from "@/components/home/FAQ";
 import Feature from "@/components/home/Feature";

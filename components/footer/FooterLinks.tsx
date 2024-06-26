@@ -1,3 +1,4 @@
+//FooterLinks.tsx、FooterProducts.tsx 等：分别处理底部的链接、产品信息等细节内容。
 import { siteConfig } from "@/config/site";
 import Link from "next/link";
 import React from "react";

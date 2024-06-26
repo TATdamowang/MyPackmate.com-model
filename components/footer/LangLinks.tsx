@@ -1,3 +1,4 @@
+//LangLinks.tsx：底部的语言切换组件。
 import { defaultLocale, localeNames } from "@/lib/i18n";
 import Link from "next/link";
 

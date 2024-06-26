@@ -1,3 +1,5 @@
+//ui/：存放通用的用户界面组件。
+
 import * as React from "react"
 import { Slot } from "@radix-ui/react-slot"
 import { cva, type VariantProps } from "class-variance-authority"

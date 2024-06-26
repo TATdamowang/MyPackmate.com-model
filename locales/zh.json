@@ -48,5 +48,17 @@
     "purposePlaceholder": "请输入出行目的",
     "dateLabel": "出行日期",
     "confirmButton": "确认信息"
+  },
+  "Trip": {
+    "uploadTitle": "上传您的图片",
+    "uploadSubtitle": "获取收纳建议",
+    "uploadDescription": "上传图片以接收个性化的收纳建议。",
+    "uploadImage": "上传图片",
+    "uploadPrompt": "从您的设备中选择一张图片上传。",
+    "uploadButtonText": "上传",
+    "suggestionsTitle": "收纳建议",
+    "doYouLike": "您喜欢我们的服务吗？",
+    "follow": "在推特上关注我们"
   }
+
 }

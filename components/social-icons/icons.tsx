@@ -1,3 +1,5 @@
+//social-icons/：存放社交媒体图标组件。
+//icons.tsx、index.tsx：不同的社交媒体图标集合。
 import { SVGProps } from 'react'
 
 // Icons taken from: https://simpleicons.org/

@@ -39,5 +39,16 @@
   },
   "CTAButton": {
     "title": "ابدأ التعبئة"
+  },
+  "Trip": {
+    "uploadTitle": "تحميل صورتك",
+    "uploadSubtitle": "احصل على اقتراحات التخزين",
+    "uploadDescription": "قم بتحميل صورة لتلقي اقتراحات التخزين المخصصة.",
+    "uploadImage": "تحميل الصورة",
+    "uploadPrompt": "اختر صورة من جهازك لتحميلها.",
+    "uploadButtonText": "تحميل",
+    "suggestionsTitle": "اقتراحات التخزين",
+    "doYouLike": "هل أعجبتك خدمتنا؟",
+    "follow": "تابعنا على تويتر"
   }
 }

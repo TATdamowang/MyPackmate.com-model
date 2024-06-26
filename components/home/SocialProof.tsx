@@ -1,3 +1,4 @@
+//SocialProof.tsx：展示社交证明的组件，例如用户评价。
 import { Makers } from "@/config/makers";
 import Image from "next/image";
 

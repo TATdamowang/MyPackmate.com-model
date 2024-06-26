@@ -1,3 +1,4 @@
+//TailwindIndicator.tsx：指示 Tailwind CSS 状态的组件。
 export function TailwindIndicator() {
   if (process.env.NODE_ENV === "production") return null
 

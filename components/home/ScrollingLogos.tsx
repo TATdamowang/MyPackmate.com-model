@@ -1,3 +1,4 @@
+//ScrollingLogos.tsx：展示滚动的标志或合作伙伴 logo 的组件。
 "use client";
 import { LOGOS } from "@/config/logos";
 import { useTheme } from "next-themes";

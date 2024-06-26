@@ -1,3 +1,5 @@
+//全局布局文件，定义了页面的通用布局结构。
+
 import BaiDuAnalytics from "@/app/BaiDuAnalytics";
 import GoogleAnalytics from "@/app/GoogleAnalytics";
 import { TailwindIndicator } from "@/components/TailwindIndicator";
@@ -19,7 +21,7 @@ export const fontSans = FontSans({
   variable: "--font-sans",
 });
 
-export const metadata = {
+export const metadata = { 
   title: siteConfig.name,
   description: siteConfig.description,
   keywords: siteConfig.keywords,

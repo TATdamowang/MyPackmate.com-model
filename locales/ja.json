@@ -39,5 +39,16 @@
   },
   "CTAButton": {
     "title": "パッキングを開始"
+  },
+  "Trip": {
+    "uploadTitle": "画像をアップロード",
+    "uploadSubtitle": "収納の提案を取得",
+    "uploadDescription": "画像をアップロードして、パーソナライズされた収納の提案を受け取りましょう。",
+    "uploadImage": "画像をアップロード",
+    "uploadPrompt": "デバイスから画像を選択してアップロードします。",
+    "uploadButtonText": "アップロード",
+    "suggestionsTitle": "収納の提案",
+    "doYouLike": "サービスを気に入っていただけましたか？",
+    "follow": "Twitterでフォローする"
   }
 }

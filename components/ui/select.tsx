@@ -1,3 +1,4 @@
+//select.tsx：通用的选择器组件。
 "use client"
 
 import * as React from "react"

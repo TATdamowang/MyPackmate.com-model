@@ -1,6 +1,4 @@
-// components/header/LangSwitcher.tsx
-
-"use client"; // 确保这是一个客户端组件
+"use client";
 
 import {
   Select,
@@ -9,47 +7,50 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+import { useParams, useRouter } from "next/navigation";
 import { defaultLocale, localeNames } from "@/lib/i18n";
-import { usePathname, useRouter } from "next/navigation";
-import { Suspense } from "react";
 
 export const LangSwitcher = () => {
+  const params = useParams();
+  const lang = params.lang;
   const router = useRouter();
-  const pathname = usePathname();
-  const currentLang = pathname.split("/")[1] || defaultLocale; // 从路径获取当前语言
 
-  const handleSwitchLanguage = (newLang: string) => {
-    let newPath;
+  let langName = lang && lang[0] && lang[0] !== "index" ? lang[0] : defaultLocale;
 
-    // 处理根路径或直接的语言路径
-    if (pathname === "/" || pathname === `/${currentLang}`) {
-      newPath = `/${newLang}`;
-    } else {
-      // 处理其他路径，例如 /trip-details
-      newPath = pathname.replace(`/${currentLang}`, `/${newLang}`);
+  const handleSwitchLanguage = (value: string) => {
+    const currentPath = window.location.pathname;
+
+    if (value === defaultLocale) {
+      if (currentPath.startsWith('/trip')) {
+        router.push('/trip');
+      } else {
+        router.push('/');
+      }
+      return;
     }
 
-    // 确保 URL 中保留新的语言参数
-    router.push(`${newPath}?lang=${newLang}`);
+    if (currentPath.startsWith('/trip')) {
+      router.push(`/trip/${value}`);
+    } else {
+      router.push(`/${value}`);
+    }
   };
 
   return (
-    <Suspense fallback={<div>Loading...</div>}>
-      <Select value={currentLang} onValueChange={handleSwitchLanguage}>
-        <SelectTrigger className="w-fit">
-          <SelectValue placeholder="Language" />
-        </SelectTrigger>
-        <SelectContent>
-          {Object.keys(localeNames).map((key: string) => {
-            const name = localeNames[key];
-            return (
-              <SelectItem className="cursor-pointer" key={key} value={key}>
-                {name}
-              </SelectItem>
-            );
-          })}
-        </SelectContent>
-      </Select>
-    </Suspense>
+    <Select value={langName} onValueChange={handleSwitchLanguage}>
+      <SelectTrigger className="w-fit">
+        <SelectValue placeholder="Language" />
+      </SelectTrigger>
+      <SelectContent>
+        {Object.keys(localeNames).map((key: string) => {
+          const name = localeNames[key];
+          return (
+            <SelectItem className="cursor-pointer" key={key} value={key}>
+              {name}
+            </SelectItem>
+          );
+        })}
+      </SelectContent>
+    </Select>
   );
 };

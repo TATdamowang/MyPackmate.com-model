@@ -1,3 +1,5 @@
+//config/存放应用的配置文件。
+//site.ts：站点的全局配置文件，可能包括站点的元数据、API 配置等。
 import { SiteConfig } from "@/types/siteConfig";
 import { BsGithub, BsTwitterX, BsWechat } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";

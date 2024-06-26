@@ -1,3 +1,5 @@
+//lib/存放工具函数和模块。
+//i18n.ts：国际化（i18n）的配置文件，用于处理多语言支持。
 import { match } from "@formatjs/intl-localematcher";
 import Negotiator from "negotiator";
 

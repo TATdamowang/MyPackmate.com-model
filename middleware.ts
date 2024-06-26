@@ -1,18 +1,25 @@
+import { NextRequest, NextResponse } from "next/server";
 import { locales } from "./lib/i18n";
-
-import { NextRequest } from "next/server";
 
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
-  const isExit = locales.some(
+  // 使用正则表达式检查路径是否是 '/trip' 或 '/trip/语言代码'
+  const tripPathPattern = /^\/trip(\/(zh|ar|es|ja|ru|en|en-US|zh-CN|zh-TW|zh-HK))?$/;
+  if (tripPathPattern.test(pathname)) {
+    return NextResponse.next();
+  }
+
+  const isLocale = locales.some(
     (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
   );
 
-  if (isExit) return;
+  if (isLocale) {
+    return NextResponse.next();
+  }
 
   request.nextUrl.pathname = `/`;
-  return Response.redirect(request.nextUrl);
+  return NextResponse.redirect(request.nextUrl);
 }
 
 export const config = {

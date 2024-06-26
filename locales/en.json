@@ -1,3 +1,4 @@
+
 {
   "Hero": {
     "title1": "Experience",
@@ -48,5 +49,17 @@
     "purposePlaceholder": "请输入出行目的",
     "dateLabel": "出行日期",
     "confirmButton": "确认信息"
+  },
+  "Trip": {
+    "uploadTitle": "Upload Your Image",
+    "uploadSubtitle": "Get Storage Suggestions",
+    "uploadDescription": "Upload an image to receive personalized storage suggestions.",
+    "uploadImage": "Upload Image",
+    "uploadPrompt": "Choose an image from your device to upload.",
+    "uploadButtonText": "Upload",
+    "suggestionsTitle": "Storage Suggestions",
+    "doYouLike": "Do you like our service?",
+    "follow": "Follow us on Twitter"
   }
+  
 }

@@ -1,3 +1,5 @@
+//icons/：存放图标组件。
+//loading-spinner.tsx、loading-circle.tsx 等：显示加载状态的图标组件。
 export default function LoadingCircle() {
   return (
     <svg

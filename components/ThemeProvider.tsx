@@ -1,3 +1,4 @@
+//ThemedButton.tsx、ThemeProvider.tsx：处理主题的组件和主题提供者。
 "use client";
 
 import { ThemeProvider as NextThemesProvider } from "next-themes";
