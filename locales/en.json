@@ -62,7 +62,7 @@
     "follow": "Follow us on Twitter",
     "handleDeleteClick": "Delete",
     "handleConfirmClick": "Confirm",
-    "dragDropPrompt": "Drag 'n' drop some files here, or click to select files"
+    "dragDropPrompt": "Drag 'n' drop some files here, or click to select files" 
   }
   
 }
