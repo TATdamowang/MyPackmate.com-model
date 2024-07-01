@@ -59,7 +59,10 @@
     "uploadButtonText": "Upload",
     "suggestionsTitle": "Storage Suggestions",
     "doYouLike": "Do you like our service?",
-    "follow": "Follow us on Twitter"
+    "follow": "Follow us on Twitter",
+    "handleDeleteClick": "Delete",
+    "handleConfirmClick": "Confirm",
+    "dragDropPrompt": "Drag 'n' drop some files here, or click to select files"
   }
   
 }

@@ -49,6 +49,9 @@
     "uploadButtonText": "Subir",
     "suggestionsTitle": "Sugerencias de almacenamiento",
     "doYouLike": "¿Te gusta nuestro servicio?",
-    "follow": "Síguenos en Twitter"
+    "follow": "Síguenos en Twitter",
+    "handleDeleteClick": "Eliminar",
+    "handleConfirmClick": "Confirmar",
+    "dragDropPrompt": "Arrastra y suelta algunos archivos aquí, o haz clic para seleccionar archivos"
   }
 }

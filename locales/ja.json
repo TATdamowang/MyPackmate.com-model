@@ -49,6 +49,10 @@
     "uploadButtonText": "アップロード",
     "suggestionsTitle": "収納の提案",
     "doYouLike": "サービスを気に入っていただけましたか？",
-    "follow": "Twitterでフォローする"
+    "follow": "Twitterでフォローする",
+    "handleDeleteClick": "削除",
+    "handleConfirmClick": "確認",
+    "dragDropPrompt": "ここにファイルをドラッグ＆ドロップするか、クリックしてファイルを選択してください"
+    
   }
 }

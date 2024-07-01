@@ -49,6 +49,10 @@
     "uploadButtonText": "Загрузить",
     "suggestionsTitle": "Предложения по хранению",
     "doYouLike": "Вам нравится наш сервис?",
-    "follow": "Следите за нами в Твиттере"
+    "follow": "Следите за нами в Твиттере",
+    "handleDeleteClick": "Удалить",
+    "handleConfirmClick": "Подтвердить",
+    "dragDropPrompt": "Перетащите файлы сюда или нажмите, чтобы выбрать файлы"
+    
   }
 }

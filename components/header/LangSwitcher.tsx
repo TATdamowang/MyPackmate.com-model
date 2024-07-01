@@ -23,18 +23,24 @@ export const LangSwitcher = () => {
     if (value === defaultLocale) {
       if (currentPath.startsWith('/trip')) {
         router.push('/trip');
+      } else if (currentPath.startsWith('/suggestion')) {
+        router.push('/suggestion');
       } else {
         router.push('/');
       }
       return;
     }
-
+  
     if (currentPath.startsWith('/trip')) {
       router.push(`/trip/${value}`);
+    } else if (currentPath.startsWith('/suggestion')) {
+      router.push(`/suggestion/${value}`);
     } else {
       router.push(`/${value}`);
     }
+    
   };
+  
 
   return (
     <Select value={langName} onValueChange={handleSwitchLanguage}>

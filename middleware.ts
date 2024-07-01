@@ -10,6 +10,12 @@ export function middleware(request: NextRequest) {
     return NextResponse.next();
   }
 
+  // 检查路径是否是 '/suggestion' 或 '/suggestion/语言代码'
+  const suggestionPathPattern = /^\/suggestion(\/(zh|ar|es|ja|ru|en|en-US|zh-CN|zh-TW|zh-HK))?$/;
+  if (suggestionPathPattern.test(pathname)) {
+    return NextResponse.next();
+  }
+
   const isLocale = locales.some(
     (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
   );

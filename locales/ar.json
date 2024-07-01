@@ -49,6 +49,9 @@
     "uploadButtonText": "تحميل",
     "suggestionsTitle": "اقتراحات التخزين",
     "doYouLike": "هل أعجبتك خدمتنا؟",
-    "follow": "تابعنا على تويتر"
+    "follow": "تابعنا على تويتر",
+    "handleDeleteClick": "حذف",
+    "handleConfirmClick": "تأكيد",
+    "dragDropPrompt": "اسحب وأفلت بعض الملفات هنا، أو انقر لتحديد الملفات"
   }
 }
